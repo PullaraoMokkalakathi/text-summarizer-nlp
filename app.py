@@ -6,6 +6,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 # Download required NLTK data (important for deployment)
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Streamlit Page Config
